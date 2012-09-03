@@ -1,9 +1,7 @@
 # Uses git's autocompletion for inner commands. Assumes an install of git's
-# bash `git-completion` script at $completion below (this is where Homebrew
-# tosses it, at least).
-completion=/usr/local/etc/bash_completion.d/git-completion.bash
+# via Homebrew
 
-if test -f $completion
-then
-  source $completion
+# Bash completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  . `brew --prefix`/etc/bash_completion
 fi
