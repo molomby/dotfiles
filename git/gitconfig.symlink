@@ -3,10 +3,10 @@
 # You probably want to change the [user] section here since you are not me.
 
 [hub]
-        protocol = https
+        protocol = ssh
 [user]
-        name = Zach Holman
-        email = zach@zachholman.com
+        name = Arnold Almeida
+        email = arnold.almedia@gmail.com
 [credential]
         helper = osxkeychain
 [alias]
