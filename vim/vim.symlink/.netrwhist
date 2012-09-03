@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/biscii/.dotfiles'
+let g:netrw_dirhist_2='/Users/biscii/.dotfiles/osx'
+let g:netrw_dirhist_3='/Volumes/XFILES/Development/getactive/www/app/Active/Controllers'
+let g:netrw_dirhist_4='/Users/biscii/.dotfiles'
+let g:netrw_dirhist_5='/Users/biscii/.dotfiles/zsh'
+let g:netrw_dirhist_6='/usr/local/etc/bash_completion.d'

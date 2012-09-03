@@ -1,0 +1,26 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"Behat Features",
+		"CoffeeScript",
+		"DocBlockr",
+		"Gist",
+		"jQuery",
+		"jQuery Snippets pack",
+		"Nettuts+ Fetch",
+		"nginx",
+		"Package Control",
+		"Paste to friendpaste.com",
+		"Phpcs",
+		"PHPUnit",
+		"PHPUnit Completions",
+		"Sass",
+		"SASS Snippets",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Theme - Soda"
+	]
+}

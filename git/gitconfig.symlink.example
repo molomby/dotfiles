@@ -2,10 +2,10 @@
 #
 
 [hub]
-        protocol = https
+        protocol = ssh
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Arnold Almeida
+        email = arnold.almedia@gmail.com
 [credential]
         helper = GIT_CREDENTIAL_HELPER
 [alias]
