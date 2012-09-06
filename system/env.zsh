@@ -1,1 +1,2 @@
-export EDITOR='atom'
+export CLICOLOR=1
+export EDITOR='subl'
