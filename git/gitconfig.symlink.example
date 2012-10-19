@@ -5,7 +5,7 @@
         protocol = ssh
 [user]
         name = Arnold Almeida
-        email = arnold.almedia@gmail.com
+        email = arnold.almeida@gmail.com
 [credential]
         helper = GIT_CREDENTIAL_HELPER
 [alias]
