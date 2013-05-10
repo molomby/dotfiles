@@ -1,3 +1,75 @@
 {
-  "theme": "Soda Dark.sublime-theme"
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_size": 14.0,
+	"ignored_packages":
+	[
+		"Groovy",
+		"LaTeX",
+		"ASP",
+		"D",
+		"Scala",
+		"AppleScript",
+		"OCaml",
+		"Haskell",
+		"Lua",
+		"BracketHighlighter",
+		"Matlab",
+		"ActionScript",
+		"Go",
+		"Clojure",
+		"Erlang"
+	],
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"soda_classic_tabs": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false,
+	"wrap_width": 99999
 }
