@@ -39,6 +39,7 @@ setopt complete_aliases
 
 # Disable auto correct...
 unsetopt correct_all
+unsetopt correct
 
 zle -N newtab
 
