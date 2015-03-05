@@ -7,6 +7,7 @@ then
 fi
 
 # The rest of my fun git aliases
+# suppose these can go under the [alias] block in gitconfig.symlink
 alias gl='git pull --prune'
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gpo='git push origin HEAD'

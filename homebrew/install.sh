@@ -15,4 +15,17 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark
 
+# Small wrapper around `launchctl` for supported formulae, commands available:
+#
+#   elasticsearch
+#   mongo
+#   postgres
+#
+#  Then its simple as :
+#
+#  brew services restart <service>
+#
+#
+brew install services
+
 exit 0

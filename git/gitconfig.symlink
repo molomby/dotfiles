@@ -10,12 +10,12 @@
 [credential]
         helper = osxkeychain
 [alias]
-        co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
+        co                = checkout
+        promote           = !$ZSH/bin/git-promote
+        wtf               = !$ZSH/bin/git-wtf
         rank-contributers = !$ZSH/bin/git-rank-contributers
-        count   = !git shortlog -sn
-	    semtag = !git tag -a $(semver tag) -m \"tagging $(semver tag)\"
+        count             = !git shortlog -sn
+        semtag            = !git tag -a $(semver tag) -m \"tagging $(semver tag)\"
 [color]
         ui = auto
 [color "branch"]
