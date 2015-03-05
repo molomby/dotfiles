@@ -5,8 +5,8 @@
 [hub]
         protocol = ssh
 [user]
-        name = Arnold Almeida
-        email = arnold.almeida@gmail.com
+	name = Arnold Almeida
+	email = arnold@floatingpoints.com.au
 [credential]
         helper = osxkeychain
 [alias]
@@ -43,7 +43,7 @@
 [difftool]
         prompt = false
 [help]
-        autocorrect = 1
+	autocorrect = 0
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
