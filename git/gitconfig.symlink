@@ -1,16 +1,19 @@
-# gitconfig
+# Sample gitconfig
+#
+# You probably want to change the [user] section here since you are not me.
+
 [hub]
         protocol = ssh
 [user]
 	name = Arnold Almeida
 	email = arnold@floatingpoints.com.au
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
+        rank-contributers = !$ZSH/bin/git-rank-contributers
         count   = !git shortlog -sn
 	    semtag = !git tag -a $(semver tag) -m \"tagging $(semver tag)\"
 [color]
@@ -40,13 +43,6 @@
 [difftool]
         prompt = false
 [help]
-        autocorrect = 1
-[push]
-        # See `git help config` (search for push.default)
-        # for more information on different options of the below setting.
-        #
-        # Setting to git 2.0 default to suppress warning message
-        default = simple
 	autocorrect = 0
 [filter "media"]
 	clean = git-media-clean %f
