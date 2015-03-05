@@ -67,17 +67,14 @@ rb_prompt() {
   fi
 }
 
-<<<<<<< HEAD
 directory_name() {
   # alt dir paths
-  #echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
-=======
-directory_name(){
->>>>>>> f0fd4d9927587aae46226f043d2526e57c11ac09
+  # echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
   echo "%{$fg_bold[cyan]%}${PWD/#$HOME/~}%{$reset_color%}"
 }
 
-export PROMPT=$'\n$(rb_prompt)in $(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'\nin $(directory_name) $(git_dirty)$(need_push)\n› '
+
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }

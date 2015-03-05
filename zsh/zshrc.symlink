@@ -96,7 +96,3 @@ elif type compctl &>/dev/null; then
   compctl -K _bower_completion bower
 fi
 ###-end-bower-completion-###
-<<<<<<< HEAD
-
-=======
->>>>>>> f0fd4d9927587aae46226f043d2526e57c11ac09
